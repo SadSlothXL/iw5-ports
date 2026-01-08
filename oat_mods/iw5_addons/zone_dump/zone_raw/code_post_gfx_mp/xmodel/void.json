@@ -1,0 +1,15 @@
+{
+    "$schema": "http://openassettools.dev/schema/xmodel.v1.json",
+    "_game": "iw5",
+    "_type": "xmodel",
+    "_version": 2,
+    "flags": 0,
+    "lods": [
+        {
+            "distance": 1000000.0,
+            "file": "model_export/void_lod0.glb"
+        }
+    ],
+    "physCollmap": "void",
+    "type": "rigid"
+}

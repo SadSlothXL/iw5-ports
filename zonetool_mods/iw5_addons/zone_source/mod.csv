@@ -1,0 +1,77 @@
+# Note: this mod is only used to build these assets into OAT
+
+# P90 akimbo
+xanim,viewmodel_p90_idle_l
+xanim,viewmodel_p90_idle_r
+xanim,viewmodel_p90_fire_l
+xanim,viewmodel_p90_fire_r
+xanim,viewmodel_p90_pullout_l
+xanim,viewmodel_p90_pullout_r
+xanim,viewmodel_p90_putaway_l
+xanim,viewmodel_p90_putaway_r
+xanim,viewmodel_p90_first_time_pullout_l
+xanim,viewmodel_p90_first_time_pullout_r
+xanim,viewmodel_p90_reload_l
+xanim,viewmodel_p90_reload_r
+xanim,viewmodel_p90_reload_empty_l
+xanim,viewmodel_p90_reload_empty_r
+xanim,viewmodel_p90_sprint_in_l
+xanim,viewmodel_p90_sprint_in_r
+xanim,viewmodel_p90_sprint_loop_l
+xanim,viewmodel_p90_sprint_loop_r
+xanim,viewmodel_p90_sprint_out_l
+xanim,viewmodel_p90_sprint_out_r
+
+# pm9 akimbo
+xanim,viewmodel_miniuzi_idle_l
+xanim,viewmodel_miniuzi_idle_r
+xanim,viewmodel_miniuzi_fire_l
+xanim,viewmodel_miniuzi_fire_r
+xanim,viewmodel_miniuzi_reload_l
+xanim,viewmodel_miniuzi_reload_r
+xanim,viewmodel_miniuzi_reload_empty_l
+xanim,viewmodel_miniuzi_reload_empty_r
+xanim,viewmodel_miniuzi_pullout_l
+xanim,viewmodel_miniuzi_pullout_r
+xanim,viewmodel_miniuzi_putaway_l
+xanim,viewmodel_miniuzi_putaway_r
+xanim,viewmodel_miniuzi_sprint_in_l
+xanim,viewmodel_miniuzi_sprint_in_r
+xanim,viewmodel_miniuzi_sprint_loop_l
+xanim,viewmodel_miniuzi_sprint_loop_r
+xanim,viewmodel_miniuzi_sprint_out_l
+xanim,viewmodel_miniuzi_sprint_out_r
+
+# MP5
+xanim,viewmodel_mp5_idle_l
+xanim,viewmodel_mp5_idle_r
+xanim,viewmodel_mp5_fire_l
+xanim,viewmodel_mp5_fire_r
+xanim,viewmodel_mp5_reload_l
+xanim,viewmodel_mp5_reload_r
+xanim,viewmodel_mp5_reload_empty_l
+xanim,viewmodel_mp5_reload_empty_r
+xanim,viewmodel_mp5_pullout_l
+xanim,viewmodel_mp5_pullout_r
+xanim,viewmodel_mp5_first_time_pullout_l
+xanim,viewmodel_mp5_first_time_pullout_r
+xanim,viewmodel_mp5_putaway_l
+xanim,viewmodel_mp5_putaway_r
+xanim,viewmodel_mp5_sprint_in_l
+xanim,viewmodel_mp5_sprint_in_r
+xanim,viewmodel_mp5_sprint_loop_l
+xanim,viewmodel_mp5_sprint_loop_r
+xanim,viewmodel_mp5_sprint_out_l
+xanim,viewmodel_mp5_sprint_out_r
+
+# PP90M1
+xanim,viewmodel_pp90m1_reload_l
+xanim,viewmodel_pp90m1_reload_r
+xanim,viewmodel_pp90m1_reload_empty_l
+xanim,viewmodel_pp90m1_reload_empty_r
+
+# MK14 
+xmodel,vm_iw5_mk14
+xmodel,wm_iw5_mk14
+xanim,vm_iw5_mk14_scope_ads_up
+xanim,vm_iw5_mk14_scope_ads_down

@@ -1,0 +1,73 @@
+{
+    "_game": "iw5",
+    "_type": "leaderboard",
+    "_version": 1,
+    "columns": [
+        {
+            "aggregationFunction": "last",
+            "colId": 65535,
+            "name": "Rank",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 1,
+            "hidden": true,
+            "name": "Prestige Level",
+            "statName": "prestige",
+            "type": "prestige"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 2,
+            "hidden": true,
+            "name": "Total XP",
+            "statName": "experience",
+            "type": "levelxp"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65533,
+            "name": "Gamer Name",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65534,
+            "name": "Score",
+            "statName": "round score",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 3,
+            "name": "Time Played",
+            "statName": "round timePlayed",
+            "type": "time"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65532,
+            "name": "Games Played",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65530,
+            "name": "Avg Score",
+            "type": "number",
+            "uiCalColX": 65534,
+            "uiCalColY": 65532
+        }
+    ],
+    "id": 1000,
+    "prestigeColId": 1,
+    "trackTypes": [
+        "WEEKLY",
+        "MONTHLY",
+        "PRESTIGE_WEEKLY",
+        "PRESTIGE_MONTHLY"
+    ],
+    "updateType": "combine",
+    "xpColId": 2
+}

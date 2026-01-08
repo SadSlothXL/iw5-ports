@@ -1,0 +1,116 @@
+{
+    "$schema": "http://openassettools.dev/schema/material.v1.json",
+    "_game": "iw5",
+    "_type": "material",
+    "_version": 1,
+    "cameraRegion": "lightMapOpaque",
+    "constants": [
+        {
+            "literal": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "name": "uvScale"
+        }
+    ],
+    "gameFlags": [],
+    "sortKey": 34,
+    "stateBits": [
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": true,
+            "colorWriteRgb": true,
+            "cullFace": "back",
+            "depthTest": "disabled",
+            "depthWrite": false,
+            "dstBlendAlpha": "zero",
+            "dstBlendRgb": "zero",
+            "gammaWrite": false,
+            "polygonOffset": "offset0",
+            "polymodeLine": false,
+            "srcBlendAlpha": "one",
+            "srcBlendRgb": "one"
+        }
+    ],
+    "stateBitsEntry": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "stateFlags": 3,
+    "surfaceTypeBits": 0,
+    "techniqueSet": "watersheeting_color_distort_blur",
+    "textureAtlas": {
+        "columns": 8,
+        "rows": 4
+    },
+    "textures": [
+        {
+            "image": "watersheeting_fx_distortion",
+            "name": "detailMap",
+            "samplerState": {
+                "clampU": false,
+                "clampV": false,
+                "clampW": false,
+                "filter": "aniso2x",
+                "mipMap": "nearest"
+            },
+            "semantic": "detailMap"
+        }
+    ]
+}

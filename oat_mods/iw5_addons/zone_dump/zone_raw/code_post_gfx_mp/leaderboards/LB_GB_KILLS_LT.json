@@ -1,0 +1,98 @@
+{
+    "_game": "iw5",
+    "_type": "leaderboard",
+    "_version": 1,
+    "columns": [
+        {
+            "aggregationFunction": "last",
+            "colId": 65535,
+            "name": "Rank",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 1,
+            "hidden": true,
+            "name": "Prestige Level",
+            "statName": "prestige",
+            "type": "prestige"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 2,
+            "hidden": true,
+            "name": "Total XP",
+            "statName": "experience",
+            "type": "levelxp"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65533,
+            "name": "Gamer Name",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65534,
+            "name": "Kills",
+            "statName": "round kills",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 3,
+            "name": "Deaths",
+            "statName": "round deaths",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65531,
+            "name": "Kill/Death Ratio",
+            "precision": 3,
+            "type": "number",
+            "uiCalColX": 65534,
+            "uiCalColY": 3
+        },
+        {
+            "aggregationFunction": "max",
+            "colId": 4,
+            "name": "Kill Streak",
+            "statName": "round killStreak",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65532,
+            "hidden": true,
+            "name": "Games Played",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65530,
+            "name": "Avg Kills",
+            "type": "number",
+            "uiCalColX": 65534,
+            "uiCalColY": 65532
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 5,
+            "hidden": true,
+            "name": "Assists",
+            "statName": "round assists",
+            "type": "number"
+        }
+    ],
+    "id": 1002,
+    "prestigeColId": 1,
+    "trackTypes": [
+        "WEEKLY",
+        "MONTHLY",
+        "PRESTIGE_WEEKLY",
+        "PRESTIGE_MONTHLY"
+    ],
+    "updateType": "combine",
+    "xpColId": 2
+}

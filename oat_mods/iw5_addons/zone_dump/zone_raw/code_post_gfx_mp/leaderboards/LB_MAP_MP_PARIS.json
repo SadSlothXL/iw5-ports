@@ -1,0 +1,83 @@
+{
+    "_game": "iw5",
+    "_type": "leaderboard",
+    "_version": 1,
+    "columns": [
+        {
+            "aggregationFunction": "sum",
+            "colId": 65534,
+            "hidden": true,
+            "name": "Score",
+            "statName": "round score",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 65532,
+            "hidden": true,
+            "name": "Games Played",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 1,
+            "hidden": true,
+            "name": "Time Played",
+            "statName": "round timePlayed",
+            "type": "time"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 2,
+            "hidden": true,
+            "name": "Kills",
+            "statName": "round kills",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 3,
+            "hidden": true,
+            "name": "Deaths",
+            "statName": "round deaths",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 4,
+            "hidden": true,
+            "name": "Win",
+            "statName": "round win",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "sum",
+            "colId": 5,
+            "hidden": true,
+            "name": "Loss",
+            "statName": "round loss",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "max",
+            "colId": 6,
+            "hidden": true,
+            "name": "Captures",
+            "statName": "round captures",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "max",
+            "colId": 7,
+            "hidden": true,
+            "name": "Kill Streak",
+            "statName": "round killStreak",
+            "type": "number"
+        }
+    ],
+    "id": 7005,
+    "trackTypes": [
+        "ALLTIME"
+    ],
+    "updateType": "combine"
+}

@@ -1,0 +1,142 @@
+{
+    "$schema": "http://openassettools.dev/schema/material.v1.json",
+    "_game": "iw5",
+    "_type": "material",
+    "_version": 1,
+    "cameraRegion": "emissive",
+    "constants": [
+        {
+            "literal": [
+                0.3333333432674408,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "name": "featherParms"
+        },
+        {
+            "literal": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "colorTint"
+        }
+    ],
+    "gameFlags": [],
+    "sortKey": 48,
+    "stateBits": [
+        {
+            "alphaTest": "gt0",
+            "blendOpAlpha": "add",
+            "blendOpRgb": "add",
+            "colorWriteAlpha": true,
+            "colorWriteRgb": true,
+            "cullFace": "back",
+            "depthTest": "less_equal",
+            "depthWrite": false,
+            "dstBlendAlpha": "one",
+            "dstBlendRgb": "invsrcalpha",
+            "gammaWrite": false,
+            "polygonOffset": "offset0",
+            "polymodeLine": false,
+            "srcBlendAlpha": "invdestalpha",
+            "srcBlendRgb": "srcalpha"
+        },
+        {
+            "alphaTest": "disabled",
+            "blendOpAlpha": "disabled",
+            "blendOpRgb": "disabled",
+            "colorWriteAlpha": false,
+            "colorWriteRgb": true,
+            "cullFace": "back",
+            "depthTest": "less_equal",
+            "depthWrite": false,
+            "dstBlendAlpha": "zero",
+            "dstBlendRgb": "zero",
+            "gammaWrite": false,
+            "polygonOffset": "offset2",
+            "polymodeLine": true,
+            "srcBlendAlpha": "one",
+            "srcBlendRgb": "one"
+        }
+    ],
+    "stateBitsEntry": [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "stateFlags": 19,
+    "surfaceTypeBits": 0,
+    "techniqueSet": "effect_zfeather_blend",
+    "textureAtlas": {
+        "columns": 4,
+        "rows": 4
+    },
+    "textures": [
+        {
+            "image": "blood_drops_atlas",
+            "name": "colorMap",
+            "samplerState": {
+                "clampU": false,
+                "clampV": false,
+                "clampW": false,
+                "filter": "linear",
+                "mipMap": "disabled"
+            },
+            "semantic": "colorMap"
+        }
+    ]
+}

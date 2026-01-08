@@ -1,0 +1,104 @@
+{
+    "_game": "iw5",
+    "_type": "leaderboard",
+    "_version": 1,
+    "columns": [
+        {
+            "aggregationFunction": "last",
+            "colId": 65535,
+            "name": "Rank",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 1,
+            "hidden": true,
+            "name": "Prestige Level",
+            "statName": "prestige",
+            "type": "prestige"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 2,
+            "hidden": true,
+            "name": "Total XP",
+            "statName": "experience",
+            "type": "levelxp"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65533,
+            "name": "Gamer Name",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65534,
+            "name": "Kills",
+            "statName": "kills",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 3,
+            "name": "Deaths",
+            "statName": "deaths",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 4,
+            "name": "Kill/Death Ratio",
+            "precision": 3,
+            "statName": "kdRatio",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 5,
+            "name": "Kill Streak",
+            "statName": "killStreak",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 6,
+            "hidden": true,
+            "name": "Games Played",
+            "statName": "gamesPlayed",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65530,
+            "name": "Avg Kills",
+            "type": "number",
+            "uiCalColX": 65534,
+            "uiCalColY": 6
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 7,
+            "hidden": true,
+            "name": "Assists",
+            "statName": "assists",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 8,
+            "hidden": true,
+            "name": "Headshots",
+            "statName": "headshots",
+            "type": "number"
+        }
+    ],
+    "id": 1002,
+    "prestigeColId": 1,
+    "trackTypes": [
+        "ALLTIME",
+        "PRESTIGE_ALLTIME"
+    ],
+    "updateType": "normal",
+    "xpColId": 2
+}

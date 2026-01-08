@@ -1,0 +1,65 @@
+{
+    "_game": "iw5",
+    "_type": "leaderboard",
+    "_version": 1,
+    "columns": [
+        {
+            "aggregationFunction": "last",
+            "colId": 65535,
+            "name": "Rank",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 1,
+            "hidden": true,
+            "name": "Prestige Level",
+            "statName": "prestige",
+            "type": "prestige"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 2,
+            "hidden": true,
+            "name": "Total XP",
+            "statName": "experience",
+            "type": "levelxp"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65533,
+            "name": "Gamer Name",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65534,
+            "name": "Accuracy",
+            "precision": 2,
+            "statName": "accuracy",
+            "type": "percent"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 3,
+            "name": "Hits",
+            "statName": "hits",
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 4,
+            "name": "Misses",
+            "statName": "misses",
+            "type": "number"
+        }
+    ],
+    "id": 1003,
+    "prestigeColId": 1,
+    "trackTypes": [
+        "ALLTIME",
+        "PRESTIGE_ALLTIME"
+    ],
+    "updateType": "normal",
+    "xpColId": 2
+}

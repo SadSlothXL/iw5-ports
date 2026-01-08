@@ -1,0 +1,26 @@
+{
+    "_game": "iw5",
+    "_type": "leaderboard",
+    "_version": 1,
+    "columns": [
+        {
+            "aggregationFunction": "last",
+            "colId": 65535,
+            "name": "Rank",
+            "propertyId": 268468225,
+            "type": "number"
+        },
+        {
+            "aggregationFunction": "last",
+            "colId": 65533,
+            "name": "Gamer Name",
+            "propertyId": 1073774594,
+            "type": "number"
+        }
+    ],
+    "id": 0,
+    "trackTypes": [
+        "ALLTIME"
+    ],
+    "updateType": "normal"
+}
