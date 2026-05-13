@@ -149,8 +149,8 @@
             "subtitle": null,
             "type": 1,
             "velocityMin": 5.117541991714232e-42,
-            "volMax": 0.7695000171661377,
-            "volMin": 0.7695000171661377,
+            "volMax": 1.0,
+            "volMin": 1.0,
             "volModIndex": 18,
             "volumeFalloffCurve": "weapon2"
         }

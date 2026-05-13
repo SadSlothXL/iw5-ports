@@ -759,7 +759,7 @@
             "reloadInterruptableTime": 0,
             "reloadShowRocketTime": 0,
             "sprintInTime": 200,
-            "sprintLoopTime": 800,
+            "sprintLoopTime": 700,
             "sprintOutTime": 300,
             "stunnedTimeBegin": 500,
             "stunnedTimeEnd": 500,
