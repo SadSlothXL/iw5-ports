@@ -18,7 +18,7 @@
             "mixerGroup": "weapons",
             "pitchMax": 1.0,
             "pitchMin": 1.0,
-            "probability": 0.0,
+            "probability": 1.0,
             "secondaryAliasName": "h1_kam12_ringoff",
             "sequence": 0,
             "slavePercentage": 1.0,

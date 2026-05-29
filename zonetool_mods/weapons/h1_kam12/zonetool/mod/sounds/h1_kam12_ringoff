@@ -18,7 +18,7 @@
             "mixerGroup": "weapons",
             "pitchMax": 1.0099999904632568,
             "pitchMin": 0.9800000190734863,
-            "probability": 0.0,
+            "probability": 1.0,
             "secondaryAliasName": null,
             "sequence": 0,
             "slavePercentage": 1.0,

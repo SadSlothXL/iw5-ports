@@ -1,9 +1,9 @@
 {
-    "aliasName": "h1_kam12_punch",
+    "aliasName": "iw3_desert_eagle_fire_plr",
     "count": 1,
     "head": [
         {
-            "aliasName": "h1_kam12_punch",
+            "aliasName": "iw3_desert_eagle_fire_plr",
             "centerPercentage": 0.0,
             "chainAliasName": null,
             "distMax": 25000.0,
@@ -11,18 +11,18 @@
             "envelopMax": 0.0,
             "envelopMin": 0.0,
             "envelopPercentage": 0.0,
-            "flags": 25732,
+            "flags": 25220,
             "lfePercentage": 0.0,
             "masterPercentage": 1.0,
             "masterPriority": 50,
-            "mixerGroup": "weapons",
-            "pitchMax": 1.0099999904632568,
-            "pitchMin": 0.9800000190734863,
+            "mixerGroup": null,
+            "pitchMax": 1.2,
+            "pitchMin": 1.1,
             "probability": 1.0,
-            "secondaryAliasName": "h1_kam12_sub",
+            "secondaryAliasName": "",
             "sequence": 0,
             "slavePercentage": 1.0,
-            "soundfile": "h1/kam12/h1_kam12_punch.wav",
+            "soundfile": "iw3/desert_eagle/iw3_desert_eagle_fire_plr.wav",
             "speakerMap": {
                 "channelMaps": [
                     {
@@ -148,9 +148,9 @@
             "startDelay": 0,
             "subtitle": null,
             "type": 1,
-            "velocityMin": 8.34613365351861e-42,
-            "volMax": 0.17000000178813934,
-            "volMin": 0.17000000178813934,
+            "velocityMin": 0.0,
+            "volMax": 0.79,
+            "volMin": 0.72,
             "volMod": "max",
             "volModIndex": 18,
             "volumeFalloffCurve": "weapon2"
